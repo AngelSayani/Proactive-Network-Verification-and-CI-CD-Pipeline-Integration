@@ -1,6 +1,6 @@
 {
-  "snapshot_name": "carvedrock-changed",
-  "timestamp": "2024-11-15T14:30:00Z",
+  "snapshot_name": "carvedrock-baseline",
+  "timestamp": "2024-11-15T08:00:00Z",
   "topology": {
     "nodes": [
       {
@@ -35,9 +35,18 @@
       }
     ],
     "peering_connections": [
-      {"id": "pcx-prod-staging-001", "requester": "vpc-prod", "accepter": "vpc-staging", "status": "active"},
-      {"id": "pcx-prod-dev-002", "requester": "vpc-prod", "accepter": "vpc-dev", "status": "active"},
-      {"id": "pcx-staging-dev-003", "requester": "vpc-staging", "accepter": "vpc-dev", "status": "active"}
+      {
+        "id": "pcx-prod-staging-001",
+        "requester": "vpc-prod",
+        "accepter": "vpc-staging",
+        "status": "active"
+      },
+      {
+        "id": "pcx-prod-dev-002",
+        "requester": "vpc-prod",
+        "accepter": "vpc-dev",
+        "status": "active"
+      }
     ]
   }
 }
